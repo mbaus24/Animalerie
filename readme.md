@@ -31,6 +31,7 @@ Les contrôleurs suivants sont utilisés pour gérer les requêtes de l'utilisat
 ## Comment exécuter l'application
 
 1. Cloner le dépôt Git: `git clone https://github.com/mbaus24/animalerie.git`
+2. Créer un fichier environement `.env` et y rajouter une clé secrète `SECRET_KEY = ''`
 2. Installer les dépendances: `pip install -r requirements.txt`
 3. Appliquer les migrations: `python manage.py migrate`
 4. Lancer le serveur: `python manage.py runserver`
